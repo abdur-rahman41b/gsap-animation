@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy', sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #04920b;
+}
+
+#page1 {
+  background-color: #82d0f2;
+}
+#page2 {
+  background-color: #1997ce;
+}
+#page3 {
+  background-color: #02c1db;
+}
+
+#page1, #page2, #page3 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#box {
+  height: 150px;
+  width: 150px;
+  background-color: #ff0000;
+}
+
+#page3 {
+  overflow-x: hidden;
+}
+
+#experience {
+  /* padding-left: 100px; */
+  transform: translateX(30%);
+  font-size: 40vw;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+
+
+
